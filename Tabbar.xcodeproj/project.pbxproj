@@ -21,6 +21,9 @@
 		865E438E15EB744000EF1D6F /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865E438D15EB744000EF1D6F /* second@2x.png */; };
 		865E439115EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865E438F15EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.xib */; };
 		865E439415EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865E439215EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.xib */; };
+		865E439C15EB744A00EF1D6F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 865E439A15EB744A00EF1D6F /* 1.png */; };
+		865E439D15EB744A00EF1D6F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 865E439B15EB744A00EF1D6F /* 2.png */; };
+		866BB01D15EC66E30062F229 /* IrregularTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866BB01B15EC66E30062F229 /* IrregularTabbarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,10 @@
 		865E438D15EB744000EF1D6F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		865E439015EB744000EF1D6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IrregularTabbarControllerFirstViewController.xib; sourceTree = "<group>"; };
 		865E439315EB744000EF1D6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IrregularTabbarControllerSecondViewController.xib; sourceTree = "<group>"; };
+		865E439A15EB744A00EF1D6F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = SOURCE_ROOT; };
+		865E439B15EB744A00EF1D6F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = SOURCE_ROOT; };
+		866BB01A15EC66E30062F229 /* IrregularTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrregularTabbarController.h; sourceTree = "<group>"; };
+		866BB01B15EC66E30062F229 /* IrregularTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrregularTabbarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,16 +99,11 @@
 			children = (
 				865E437E15EB744000EF1D6F /* IrregularTabbarControllerAppDelegate.h */,
 				865E437F15EB744000EF1D6F /* IrregularTabbarControllerAppDelegate.m */,
-				865E438115EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.h */,
-				865E438215EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.m */,
-				865E438415EB744000EF1D6F /* first.png */,
-				865E438615EB744000EF1D6F /* first@2x.png */,
-				865E438815EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.h */,
-				865E438915EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.m */,
-				865E438B15EB744000EF1D6F /* second.png */,
-				865E438D15EB744000EF1D6F /* second@2x.png */,
-				865E438F15EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.xib */,
-				865E439215EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.xib */,
+				866BB01A15EC66E30062F229 /* IrregularTabbarController.h */,
+				866BB01B15EC66E30062F229 /* IrregularTabbarController.m */,
+				865E439A15EB744A00EF1D6F /* 1.png */,
+				865E439B15EB744A00EF1D6F /* 2.png */,
+				866BB02015EC67410062F229 /* vc */,
 				865E437615EB744000EF1D6F /* Supporting Files */,
 			);
 			path = Tabbar;
@@ -116,6 +118,23 @@
 				865E437D15EB744000EF1D6F /* Tabbar-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		866BB02015EC67410062F229 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				865E438115EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.h */,
+				865E438215EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.m */,
+				865E438415EB744000EF1D6F /* first.png */,
+				865E438615EB744000EF1D6F /* first@2x.png */,
+				865E438815EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.h */,
+				865E438915EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.m */,
+				865E438B15EB744000EF1D6F /* second.png */,
+				865E438D15EB744000EF1D6F /* second@2x.png */,
+				865E438F15EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.xib */,
+				865E439215EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.xib */,
+			);
+			name = vc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +196,8 @@
 				865E438E15EB744000EF1D6F /* second@2x.png in Resources */,
 				865E439115EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.xib in Resources */,
 				865E439415EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.xib in Resources */,
+				865E439C15EB744A00EF1D6F /* 1.png in Resources */,
+				865E439D15EB744A00EF1D6F /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +212,7 @@
 				865E438015EB744000EF1D6F /* IrregularTabbarControllerAppDelegate.m in Sources */,
 				865E438315EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.m in Sources */,
 				865E438A15EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.m in Sources */,
+				866BB01D15EC66E30062F229 /* IrregularTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +336,7 @@
 				865E439915EB744000EF1D6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

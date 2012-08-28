@@ -7,6 +7,7 @@
 //
 
 #import "IrregularTabbarControllerFirstViewController.h"
+#import "IrregularTabbarControllerSecondViewController.h"
 
 @interface IrregularTabbarControllerFirstViewController ()
 
@@ -39,6 +40,11 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)secondVC:(id)sender {
+    IrregularTabbarControllerSecondViewController *vc = [[IrregularTabbarControllerSecondViewController alloc] initWithNibName:@"IrregularTabbarControllerSecondViewController" bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

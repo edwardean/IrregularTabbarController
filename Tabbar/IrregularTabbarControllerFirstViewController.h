@@ -10,4 +10,6 @@
 
 @interface IrregularTabbarControllerFirstViewController : UIViewController
 
+- (IBAction)secondVC:(id)sender;
+
 @end

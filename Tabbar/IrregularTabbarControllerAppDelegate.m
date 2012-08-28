@@ -12,18 +12,30 @@
 
 #import "IrregularTabbarControllerSecondViewController.h"
 
+#import "IrregularTabbarController.h"
+
 @implementation IrregularTabbarControllerAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
     UIViewController *viewController1 = [[IrregularTabbarControllerFirstViewController alloc] initWithNibName:@"IrregularTabbarControllerFirstViewController" bundle:nil];
+    UINavigationController  *nav1 = [[UINavigationController alloc] initWithRootViewController:viewController1];
+    
+    
     UIViewController *viewController2 = [[IrregularTabbarControllerSecondViewController alloc] initWithNibName:@"IrregularTabbarControllerSecondViewController" bundle:nil];
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    UIViewController *viewController3 = [[IrregularTabbarControllerSecondViewController alloc] initWithNibName:@"IrregularTabbarControllerSecondViewController" bundle:nil];
+    UIViewController *viewController4 = [[IrregularTabbarControllerSecondViewController alloc] initWithNibName:@"IrregularTabbarControllerSecondViewController" bundle:nil];
+    UIViewController *viewController5 = [[IrregularTabbarControllerSecondViewController alloc] initWithNibName:@"IrregularTabbarControllerSecondViewController" bundle:nil];
+    
+    self.tabBarController = [[IrregularTabbarController alloc] init];
+    self.tabBarController.viewControllers = @[nav1, viewController2, viewController3, viewController4, viewController5];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

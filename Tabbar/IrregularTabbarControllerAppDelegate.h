@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class IrregularTabbarController;
+
 @interface IrregularTabbarControllerAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) UITabBarController *tabBarController;
+@property (strong, nonatomic) IrregularTabbarController *tabBarController;
 
 @end
