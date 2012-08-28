@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IrregularTabbarController : UITabBarController
+@interface IrregularTabbarController : UITabBarController {
+    UIImageView *tabImageView;
+}
 
 @end

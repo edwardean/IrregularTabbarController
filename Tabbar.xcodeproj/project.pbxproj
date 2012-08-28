@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		861B983C15EC8EBF00525322 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 861B983715EC8EBF00525322 /* 1.png */; };
+		861B983D15EC8EBF00525322 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 861B983815EC8EBF00525322 /* 2.png */; };
+		861B983E15EC8EBF00525322 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 861B983915EC8EBF00525322 /* 3.png */; };
+		861B983F15EC8EBF00525322 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 861B983A15EC8EBF00525322 /* 4.png */; };
+		861B984015EC8EBF00525322 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 861B983B15EC8EBF00525322 /* 5.png */; };
 		865E437015EB744000EF1D6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865E436F15EB744000EF1D6F /* UIKit.framework */; };
 		865E437215EB744000EF1D6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865E437115EB744000EF1D6F /* Foundation.framework */; };
 		865E437415EB744000EF1D6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865E437315EB744000EF1D6F /* CoreGraphics.framework */; };
@@ -21,12 +26,15 @@
 		865E438E15EB744000EF1D6F /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865E438D15EB744000EF1D6F /* second@2x.png */; };
 		865E439115EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865E438F15EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.xib */; };
 		865E439415EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865E439215EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.xib */; };
-		865E439C15EB744A00EF1D6F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 865E439A15EB744A00EF1D6F /* 1.png */; };
-		865E439D15EB744A00EF1D6F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 865E439B15EB744A00EF1D6F /* 2.png */; };
 		866BB01D15EC66E30062F229 /* IrregularTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866BB01B15EC66E30062F229 /* IrregularTabbarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		861B983715EC8EBF00525322 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = SOURCE_ROOT; };
+		861B983815EC8EBF00525322 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = SOURCE_ROOT; };
+		861B983915EC8EBF00525322 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = SOURCE_ROOT; };
+		861B983A15EC8EBF00525322 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = SOURCE_ROOT; };
+		861B983B15EC8EBF00525322 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = SOURCE_ROOT; };
 		865E436B15EB744000EF1D6F /* Tabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		865E436F15EB744000EF1D6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		865E437115EB744000EF1D6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,8 +55,6 @@
 		865E438D15EB744000EF1D6F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		865E439015EB744000EF1D6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IrregularTabbarControllerFirstViewController.xib; sourceTree = "<group>"; };
 		865E439315EB744000EF1D6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IrregularTabbarControllerSecondViewController.xib; sourceTree = "<group>"; };
-		865E439A15EB744A00EF1D6F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = SOURCE_ROOT; };
-		865E439B15EB744A00EF1D6F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = SOURCE_ROOT; };
 		866BB01A15EC66E30062F229 /* IrregularTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrregularTabbarController.h; sourceTree = "<group>"; };
 		866BB01B15EC66E30062F229 /* IrregularTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrregularTabbarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,8 +107,11 @@
 				865E437F15EB744000EF1D6F /* IrregularTabbarControllerAppDelegate.m */,
 				866BB01A15EC66E30062F229 /* IrregularTabbarController.h */,
 				866BB01B15EC66E30062F229 /* IrregularTabbarController.m */,
-				865E439A15EB744A00EF1D6F /* 1.png */,
-				865E439B15EB744A00EF1D6F /* 2.png */,
+				861B983715EC8EBF00525322 /* 1.png */,
+				861B983815EC8EBF00525322 /* 2.png */,
+				861B983915EC8EBF00525322 /* 3.png */,
+				861B983A15EC8EBF00525322 /* 4.png */,
+				861B983B15EC8EBF00525322 /* 5.png */,
 				866BB02015EC67410062F229 /* vc */,
 				865E437615EB744000EF1D6F /* Supporting Files */,
 			);
@@ -196,8 +205,11 @@
 				865E438E15EB744000EF1D6F /* second@2x.png in Resources */,
 				865E439115EB744000EF1D6F /* IrregularTabbarControllerFirstViewController.xib in Resources */,
 				865E439415EB744000EF1D6F /* IrregularTabbarControllerSecondViewController.xib in Resources */,
-				865E439C15EB744A00EF1D6F /* 1.png in Resources */,
-				865E439D15EB744A00EF1D6F /* 2.png in Resources */,
+				861B983C15EC8EBF00525322 /* 1.png in Resources */,
+				861B983D15EC8EBF00525322 /* 2.png in Resources */,
+				861B983E15EC8EBF00525322 /* 3.png in Resources */,
+				861B983F15EC8EBF00525322 /* 4.png in Resources */,
+				861B984015EC8EBF00525322 /* 5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

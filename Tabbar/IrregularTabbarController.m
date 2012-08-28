@@ -35,6 +35,24 @@
 
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {
     NSLog(@"item %@ %d",item,[self.tabBar.items indexOfObject:item]);
+    NSInteger index = [self.tabBar.items indexOfObject:item];
+    
+    switch (index) {
+        case 0:
+            tabImageView.image = [UIImage imageNamed:@"1.png"];
+            break;
+        case 1:
+            tabImageView.image = [UIImage imageNamed:@"2.png"];
+            break;
+        case 3:
+            tabImageView.image = [UIImage imageNamed:@"4.png"];
+            break;
+        case 4:
+            tabImageView.image = [UIImage imageNamed:@"5.png"];
+            break;
+        default:
+            break;
+    }
 }
 
 
@@ -48,12 +66,12 @@
     }
     
     
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"2.png"]];
-    imageView.frame = CGRectMake(0, 0, 320, 49);///426
-    imageView.backgroundColor = [UIColor clearColor];
-    imageView.userInteractionEnabled = NO;
+    tabImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"1.png"]];
+    tabImageView.frame = CGRectMake(0, 0, 320, 49);///426
+    tabImageView.backgroundColor = [UIColor clearColor];
+    tabImageView.userInteractionEnabled = NO;
     NSLog(@"tabbar frame %@",NSStringFromCGRect(self.tabBar.frame));
-    [self.tabBar addSubview:imageView];
+    [self.tabBar addSubview:tabImageView];
 }
 
 - (void)viewDidLoad
